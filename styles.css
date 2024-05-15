@@ -1,0 +1,63 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #d1478e;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#vectorInputs {
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+label {
+    display: block;
+    width: 180px;
+    color: #ff69b4;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
